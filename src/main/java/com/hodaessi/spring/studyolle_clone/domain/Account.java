@@ -8,7 +8,7 @@ import java.util.UUID;
 
 @Entity
 @Getter @EqualsAndHashCode(of = "id")
-@Builder @NoArgsConstructor
+@Builder @AllArgsConstructor @NoArgsConstructor
 public class Account {
 
     @Id @GeneratedValue
